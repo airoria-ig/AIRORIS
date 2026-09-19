@@ -1,0 +1,13 @@
+{
+	"appId": "com.spaceshooter.app",
+	"appName": "Space Side-Scroller",
+	"webDir": "dist",
+	"server": {
+		"androidScheme": "https",
+		"cleartext": true
+	},
+	"android": {
+		"backgroundColor": "#020617",
+		"allowMixedContent": true
+	}
+}

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="ship" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="180" fill="url(#glow)"/>
+  <!-- Thruster flame -->
+  <polygon points="120,256 60,240 70,256 60,272" fill="#f97316"/>
+  <polygon points="120,256 80,248 90,256 80,264" fill="#fef08a"/>
+  <!-- Starfighter body -->
+  <polygon points="410,256 160,160 190,240 130,246 130,266 190,272 160,352" fill="url(#ship)"/>
+  <polygon points="340,256 220,200 235,256 220,312" fill="#0284c7"/>
+  <!-- Cockpit glass -->
+  <ellipse cx="280" cy="256" rx="40" ry="18" fill="#38bdf8"/>
+  <ellipse cx="290" cy="253" rx="20" ry="8" fill="#ffffff" opacity="0.8"/>
+  <!-- Wing tips blasters -->
+  <rect x="180" y="148" width="40" height="6" rx="3" fill="#38bdf8"/>
+  <rect x="180" y="358" width="40" height="6" rx="3" fill="#38bdf8"/>
+  <!-- Spark stars -->
+  <circle cx="380" cy="140" r="4" fill="#ffffff"/>
+  <circle cx="120" cy="110" r="3" fill="#38bdf8"/>
+  <circle cx="390" cy="380" r="5" fill="#f43f5e"/>
+  <circle cx="100" cy="400" r="3" fill="#ffffff"/>
+</svg>
